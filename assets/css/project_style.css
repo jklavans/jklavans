@@ -1,0 +1,97 @@
+/*================================
+    HOME SECTION STYLES
+==================================*/
+
+/*STYLE OF BACKGROUND IMAGE*/
+#phome {
+    background: url(../img/IMG_0982.jpg) no-repeat center center; /*Full Witdth background image*/
+    padding: 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    -moz-background-size: cover;
+    min-height: 500px;
+}
+    /*STYLE FOR OVERLAY CLASS - WHICH IS ABOVE IMAGE WITH OPACITY/TRANSPARENCY 0.75*/
+    #phome .overlay {
+        padding-top: 200px;
+        background-color: rgba(2,170,234,0.3); /*.75 opacity of the color so that background image is visible*/
+        min-height: 600px;
+        color: #fff;
+    }
+
+    #phome h1 {
+        padding-top: 400px;
+        font-weight: 700;
+        font-size: 40px;
+        font-family: 'Roboto', sans-serif;/*'Browallia New';*/
+        font-color: rgba(195,206,209);
+    }
+/*SMPLE CLASS TO ADJUST SECTION PADDING & HEIGHT*/
+
+/*CLASS TO FORMAT TEXT*/
+.p-cls {
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+/*======================================
+    PARALLAX LIKE / STATS SECTION STYLES
+=========================================*/
+
+.pparallax-like {
+    background: url(../img/IMG_2399.jpg) no-repeat center center; /* DEFINE IMAGE PATH CAREFULLY*/
+    padding: 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+}
+
+    .pparallax-like .overlay {
+        min-height: 200px;
+        background: rgba(2,170,234,0.4);
+        font-size: 40px;
+        padding-bottom: 60px;
+        padding-top: 100px;
+}
+     
+/*======================================
+    PARALLAX LIKE / STATS SECTION STYLES B
+=========================================*/
+
+.pparallax-likeB {
+    background: url(../img/IMG_1057.jpg) no-repeat center center; /* DEFINE IMAGE PATH CAREFULLY*/
+    padding: 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+}
+
+    .pparallax-likeB .overlayB {
+        min-height: 200px;
+        background: rgba(2,170,234,0.4);
+        font-size: 40px;
+        padding-bottom: 60px;
+        padding-top: 100px;
+}
+
+/*======================================
+    PARALLAX LIKE / STATS SECTION STYLES B
+=========================================*/
+
+.pparallax-likeC {
+    background: url(../img/IMG_1858.jpg) no-repeat center center; /* DEFINE IMAGE PATH CAREFULLY*/
+    padding: 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+}
+
+    .pparallax-likeC .overlayC {
+        min-height: 200px;
+        background: rgba(2,170,234,0.4);
+        font-size: 40px;
+        padding-bottom: 60px;
+        padding-top: 100px;
+}

@@ -1,0 +1,35 @@
+/*================================
+    HOME SECTION STYLES
+==================================*/
+
+/*STYLE OF BACKGROUND IMAGE*/
+#chome {
+    background: url(../img/IMG_0991.jpg) no-repeat center center; /*Full Witdth background image*/
+    padding: 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    -moz-background-size: cover;
+    min-height: 500px;
+}
+    /*STYLE FOR OVERLAY CLASS - WHICH IS ABOVE IMAGE WITH OPACITY/TRANSPARENCY 0.75*/
+    #chome .overlay {
+        padding-top: 200px;
+        background-color: rgba(2,170,234,0.3); /*.75 opacity of the color so that background image is visible*/
+        min-height: 600px;
+        color: #fff;
+    }
+
+    #chome h1 {
+        padding-top: 400px;
+        font-weight: 700;
+        font-size: 40px;
+        font-family: 'Roboto', sans-serif;/*'Browallia New';*/
+        font-color: rgba(195,206,209);
+    }
+/*SMPLE CLASS TO ADJUST SECTION PADDING & HEIGHT*/
+
+/*CLASS TO FORMAT TEXT*/
+.p-cls {
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
